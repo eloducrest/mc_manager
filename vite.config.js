@@ -27,4 +27,12 @@ export default defineConfig({
       },
     }),
   ],
+   build: {
+    manifest: true,
+    rollupOptions: {
+      output: {
+        publicPath: 'https://mcmanager-production.up.railway.app/build/',
+      },
+    },
+  },
 });
