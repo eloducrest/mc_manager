@@ -1,0 +1,7 @@
+.collapse-enter-active, .collapse-leave-active {
+  transition: height .5s;
+  overflow: hidden;
+}
+.collapse-enter, .collapse-leave-to {
+  height: 0;
+}

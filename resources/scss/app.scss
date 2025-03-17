@@ -1,0 +1,18 @@
+@use './satoshi';
+@use './style';
+
+/* ================ */
+/* == COMPONENTS == */
+/* ================ */
+@use './components/toastification';
+@use "./components/datatables";
+@use "./components/multiselect";
+
+/* ================= */
+/* == TRANSITIONS == */
+/* ================= */
+@use "transitions";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,11 @@
+.dataTable-search {
+  .search {
+    @apply text-sm font-[#495057] py-2 px-3 rounded-lg border border-[#cccccc];
+    &:focus {
+      @apply focus:border-pink-400 shadow-none ring-0 #{!important};
+    }
+  }
+}
+.vue3-easy-data-table__main {
+  @apply overflow-visible #{!important};
+}
